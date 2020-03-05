@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Завдання 7</title>
+</head>
+<script>
+    function truncate(str, maxlength){
+        if (str.length > maxlength){
+            return str.slice(0, maxlength - 1) + "...";
+        }
+        else{
+            return  str;
+        }
+    }
+    let str = prompt("Введіть рядок: ");
+    let maxlength = prompt("Введіть максмальну довжину:");
+    alert(truncate(str, maxlength));
+</script>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Завдання 6</title>
+</head>
+<script>
+    function checkSpam(str) {
+        str.toLowerCase()
+        if (str.includes("viagra") || str.includes("xxx")){
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+    let str = prompt("Введіть рядок:");
+    alert(checkSpam(str));
+</script>
+<body>
+
+</body>
+</html>
